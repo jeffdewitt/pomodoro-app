@@ -1,0 +1,62 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #80dfff, #668cff);
+}
+
+.appContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 1000px;
+}
+
+.baseContainer {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 450px;
+  background: white;
+  padding: 5px 10px;
+}
+
+h2 {
+  text-align: center;
+  border-bottom: solid 1px;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.inputField {
+  border: solid 1px;
+  padding: 4px;
+  border-width: 0 0 1px 0;
+  outline: none;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  height: 460px;
+  background: white;
+}
+
+.divider hr {
+  height: 420px;
+  margin: auto;
+  width: 0px;
+  margin: 0;
+  border: solid 0;
+  border-left: solid 1px slategrey;
+}

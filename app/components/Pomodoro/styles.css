@@ -1,0 +1,36 @@
+.pomodoroContainer {
+  composes: baseContainer from "components/sharedStyles.css";
+  border: solid;
+  border-width: 5px 0 5px 5px;
+  border-image: linear-gradient(to left, #73B6FF, #668cff) 30;
+}
+
+.controls {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.timerDetails {
+  padding: 25px 25px 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.timerStyle {
+  font-size: 7rem;
+}
+
+.roundStyle {
+  font-size: 1.5rem;
+}
+
+button.controlButton {
+  background-color: #7c40ed;
+}
+
+button.warnButton {
+  background-color: #dd0202;
+}
